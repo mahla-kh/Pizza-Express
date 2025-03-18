@@ -1,23 +1,21 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import Button from "../../ui/Button";
 import { decreaseItemQuantity, increaseItemQuantity } from "./cartSlice";
 
-function UpdateItemQuantity({ id }) {
+function UpdateItemQuantity({ children, id }) {
   const dispatch = useDispatch();
-  const item = useSelector((store) =>
-    store.cart.cart.find((item) => item.pizzaId === id),
-  );
+
   return (
     <div className="flex flex-row items-center justify-around gap-2">
       <Button
-        type="small"
+        type="rounded"
         onClickHandler={() => dispatch(decreaseItemQuantity(id))}
       >
         -
       </Button>
-      <p>{item.quantity}</p>
+      {children}
       <Button
-        type="small"
+        type="rounded"
         onClickHandler={() => dispatch(increaseItemQuantity(id))}
       >
         +

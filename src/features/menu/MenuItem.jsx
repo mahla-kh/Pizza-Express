@@ -9,6 +9,7 @@ function MenuItem({ pizza }) {
   const dispatch = useDispatch();
 
   const cart = useSelector((store) => store.cart.cart);
+  const item = cart.find((item) => item.pizzaId === id);
   const isInCart = cart.find((item) => item.pizzaId === id) ? true : false;
 
   function addItemHandler(e) {
@@ -46,7 +47,7 @@ function MenuItem({ pizza }) {
           )}
           {isInCart && (
             <>
-              <UpdateItemQuantity id={id} />
+              <UpdateItemQuantity id={id}>{item.quantity}</UpdateItemQuantity>
               <Button
                 type="small"
                 onClickHandler={() => dispatch(deleteItem(id))}
