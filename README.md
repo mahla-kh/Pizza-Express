@@ -1,12 +1,47 @@
-# React + Vite
+### 🍕 Pizza Express  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Experience the ultimate pizza-ordering journey with **Pizza Express**! Customize your orders, set priority levels, and enjoy a seamless checkout experience—all in one place.  
 
-Currently, two official plugins are available:
+## 🚀 Live Demo  
+[Pizza Express Live](https://pizza-express-navy.vercel.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features  
+- 🛒 **Order a variety of pizzas** with just a few clicks  
+- 🎯 **Set priority levels** to get your pizza faster  
+- 💳 **Smooth checkout experience** with secure payments  
+- 📱 **Responsive design** for an effortless experience on any device  
+- ⚖️ **In Development** — More features coming soon!  
 
-## Expanding the ESLint configuration
+## 🛠️ Built With  
+- **React** — for dynamic UI  
+- **Tailwind CSS** — for modern styling  
+- **Redux** — for state management  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛆 Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/Pizza-Express.git
+   ```  
+2. Navigate to the project directory:  
+   ```bash
+   cd Pizza-Express
+   ```  
+3. Install dependencies:  
+   ```bash
+   npm install
+   ```  
+4. Run the app:  
+   ```bash
+   npm run dev
+   ```  
+
+## 📸 Screenshots  
+![Pizza Express Home Page](public/home-page.png)  
+![Order Summary](public/order-summary.png)  
+
+## 📬 Contact  
+Feel free to reach out via [GitHub](https://github.com/your-username)!  
+
+---  
+
+🌟 *If you like this project, give it a star!* 🚀
